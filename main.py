@@ -64,7 +64,7 @@ print_board(board)
 
 while turn_number < 9:
     print()
-    print("It is the", turn, "players turn. Please select your move.")
+    print("It is the", turn, "players turn.")
 
     get_move(turn, board)
 
@@ -82,4 +82,4 @@ while turn_number < 9:
 if turn_number == 9:
     print("Tied game.")
 else:
-    print("The winner was", turn)
+    print("The winner is", turn)
